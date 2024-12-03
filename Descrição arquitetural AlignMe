@@ -1,0 +1,46 @@
+Descrição Arquitetural
+Projeto idealizado: AlignMe - Sistema para Monitoramento de Postura
+Autores:
+Luiz Felipe Pires Carvalho
+Guilherme Abraão da Silva
+1. Introdução
+Este documento apresenta a descrição arquitetural do projeto AlignMe, conforme os requisitos especificados na seção 6 da norma ISO/IEC/IEEE 42010. O objetivo é fornecer uma visão compreensiva da arquitetura do sistema, facilitando a análise, verificação e validação dos requisitos.
+2. Visão Geral da Arquitetura
+A arquitetura do sistema AlignMe é baseada em uma abordagem modular, permitindo a integração de sensores e dispositivos IoT para monitoramento em tempo real da postura dos usuários. A plataforma é composta por um padrão de camadas distintas para garantir a separação de responsabilidades, facilitar a manutenção e escalabilidade do sistema, e permitir interoperabilidade entre os módulos de diversas empresas.
+3. Contexto e Escopo
+3.1 Contexto
+A AlignMe atua no setor de saúde e bem-estar, oferecendo soluções para monitoramento e correção de postura através de tecnologias IoT.
+3.2 Escopo
+O escopo da arquitetura abrange o hardware (sensores de postura e dispositivos IoT), software (plataforma de monitoramento), integração de dados e conformidade com normas de segurança.
+4. Visão Arquitetural
+4.1 Visão de Implementação
+A plataforma é desenvolvida utilizando diversas tecnologias, como a adoção de microsserviços, para garantir flexibilidade e escalabilidade. Cada componente do sistema é independente e comunica-se através de APIs RESTful.
+4.2 Visão de Desempenho
+O sistema é projetado para processar grandes volumes de dados em tempo real, utilizando filas de mensagens e processamento assíncrono para garantir a eficiência.
+4.3 Visão de Segurança
+Inclui mecanismos robustos para garantir a proteção dos dados sensíveis, como criptografia nas mensagerias e autenticação multifator dos aparelhos conectados.
+5. Componentes Principais
+5.1 Módulo de Cadastro de Sensores
+Responsável pelo registro e gerenciamento dos sensores de postura.
+5.2 Módulo de Integração IoT
+Gerencia a comunicação com os dispositivos IoT, garantindo a coleta e processamento dos dados em tempo real.
+5.3 Módulo de Alertas de Correção
+Gera alertas e notificações com base nos dados dos sensores de postura.
+5.4 Módulo de Relatórios
+Produz relatórios detalhados sobre a postura dos usuários e recomendações de correção.
+5.5 Módulo de Acesso de Usuários
+Gerencia as permissões e acessos dos usuários, garantindo a segurança da informação.
+6. Interfaces de Usuário
+A plataforma oferece uma interface amigável e intuitiva, permitindo fácil acesso às funcionalidades e monitoramento dos dados de postura e dispositivos IoT.
+7. Conformidade com Normas
+7.1 ISO 45001
+A arquitetura foi desenvolvida em conformidade com a norma ISO 45001, garantindo a gestão eficaz da saúde e segurança no trabalho.
+7.2 Normas de IoT
+Inclui diretrizes e melhores práticas para a integração e segurança de dispositivos IoT.
+8. Revisões e Aprovações
+8.1 Revisões
+O documento foi revisado por especialistas de segurança e arquitetos de software para garantir a conformidade com os requisitos e boas práticas.
+8.2 Aprovações
+Aprovado pelo gerente de projeto, Luiz Felipe Pires, e pelo comitê de arquitetura da AlignMe, Guilherme Abraão e Luiz Felipe Pires.
+Espero que isso ajude! Se precisar de mais alguma coisa, estou aqui para ajudar.
+
