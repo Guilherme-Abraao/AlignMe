@@ -15,18 +15,18 @@ O propósito do sistema é monitorar a postura do usuário e notificá-lo quando
             App/ 
 
                 # Implementação do aplicativo móvel
-                # README com dependências, instruções e como rodar o projeto 
+                # README com dependências e instruções de como executar o projeto 
 
             Arduino/ 
                 
                 # Implementação inserida no sensor para captar dados do acelerômetro e giroscópio
-                # README com dependências, instruções e como rodar o projeto 
+                # README com dependências e instruções de como executar o projeto 
                 # Diagrama da conexão do Hardware
 
             Gateway/
 
                 # Implementação da comunicação via MQTT
-                # README com dependências, instruções, observações e como rodar o projeto 
+                # README com dependências, instruções de como executar o projeto e observações. 
 
         Slides/
 
