@@ -37,7 +37,7 @@ O propósito do sistema é monitorar a postura do usuário e notificá-lo quando
 | Nome              | Função     | Usuário Git                                                                      |
 |-------------------|------------|-------------------------------------------------------------------|
 | Guilherme Abraão  | Arquiteto de software e desenvolvedor backend | [Guilherme-Abraao](https://github.com/Guilherme-Abraao)		 |
-| Abraão    | Devops e desenvolvedor mobile				    | Link  |
+| Abraão    | Devops e desenvolvedor mobile				    | [Abraao-Santiago](https://github.com/abraao8401)|
 | Luiz Felipe    | Arquiteto de software		    | Link	  	 |
 | André   | ....				    | Link		 |
 
